@@ -27,7 +27,7 @@ public class MovieActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_jadwal);
+        setContentView(R.layout.activity_movie);
 
         City city = getIntent().getParcelableExtra(ARG_CITY);
         id = city.getId() ;
