@@ -47,10 +47,10 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:17:27-74
-activity#com.bekup.jadwalbioskop.activity.JadwalActivity
-ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:20:9-70
+activity#com.bekup.jadwalbioskop.activity.MovieActivity
+ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:20:9-69
 	android:name
-		ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:20:19-58
+		ADDED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml:20:19-57
 uses-sdk
 INJECTED from E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78

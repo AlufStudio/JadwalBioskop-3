@@ -5,130 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="45390848421812"
+    timestamp="48721470125729"
     token="6668795957016664185"
-    verifier="INSTANT_RUN_DISABLED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1640" />
+        duration="759" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1275" />
     <task
         name="instant-run-transform"
-        duration="39" />
+        duration="48" />
     <task
         name="verifier"
-        duration="5" />
+        duration="9" />
 
     <artifact
-        location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="42960378475223"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="48495336087465"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="E:\Project\ANDROID\workspace\BekupAndroid2.0\JadwalBioskop\app\build\outputs\apk\app-debug.apk"
+            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="43150876250194"
-        verifier="METHOD_DELETED" >
-        <artifact
-            location="E:\Project\ANDROID\workspace\BekupAndroid2.0\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="45137213114402"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0b0fe5d6ab2ebf51b65f0ff2bd40e2bb76cf43bd\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_dd1f3077a79d7bfe4331f8144267d213a916dc56\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_9a8f181dda6dbbc1cc7bb57ec18f9e1cd807e280\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_c511b1a0e0bfed466f1507803e215a2a15b98f07\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_63e9ceb387b300abdf310613da3399ddd14dd0c9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_64fcc2022bcbf66e46f86e66b180ab89b84ff571\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_33b82373ece3375dca739916fc775f51210cd7d8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_de18bfe903e4d635305c4c70a994139c0459675d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_3e5c2e1f22c322b7fa2f13217d9eca0c7441f265\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_1ac2ca9387d9ba6191b7e5eeca24253ec96a8f3a\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_914a72e6ffa2ca962b4869d9d6ae00cf46089bcc\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c43f1b3d2937a7a78deccf2f154dd60e2d575e84\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_3255b37ab3cd0c8f25964b5d9754529078b809c1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c\classes.dex"
-            type="DEX" />
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_cb3618c2b01b3e9d084e3032f0163fcd92c328a6\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="45288506326137"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="45390848421812"
-        verifier="INSTANT_RUN_DISABLED" >
-        <artifact
-            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
     </build>
     <build
         timestamp="203241598748807"

@@ -11,7 +11,7 @@ import android.widget.Toast;
 import com.bekup.jadwalbioskop.R;
 import com.bekup.jadwalbioskop.model.City;
 import com.bekup.jadwalbioskop.model.CityResponse;
-import com.bekup.jadwalbioskop.networks.JadwalBioskopService;
+import com.bekup.jadwalbioskop.networks.MovieService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setMessage("Load data...");
         progressDialog.show();
 
-        JadwalBioskopService bioskopService = JadwalBioskopService
-                .retrofit.create(JadwalBioskopService.class);
-        Call<CityResponse> call = bioskopService.getKota(API_KEY);
+        MovieService movieService = MovieService
+                .retrofit.create(MovieService.class);
+        Call<CityResponse> call = movieService.getCity(API_KEY);
         call.enqueue(new Callback<CityResponse>() {
             @Override
             public void onResponse(Call<CityResponse> call, Response<CityResponse> response) {
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("kota", cityResponse.getData().get(i).getKota());
                     }
 
-                    Intent i = new Intent(mContext, JadwalActivity.class);
+                    Intent i = new Intent(mContext, MovieActivity.class);
                     mContext.startActivity(i);
 
                 }

@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.bekup.jadwalbioskop.activity.JadwalActivity" />
+        <activity android:name="com.bekup.jadwalbioskop.activity.MovieActivity" />
     </application>
 
 </manifest>
