@@ -2,18 +2,22 @@ package com.bekup.jadwalbioskop.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Parcelable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
 import android.widget.Toast;
 
 import com.bekup.jadwalbioskop.R;
 import com.bekup.jadwalbioskop.adapter.CityListAdapter;
+import com.bekup.jadwalbioskop.listener.RecyclerViewItemClickListener;
 import com.bekup.jadwalbioskop.model.City;
 import com.bekup.jadwalbioskop.model.CityResponse;
 import com.bekup.jadwalbioskop.networks.MovieService;
@@ -26,7 +30,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewItemClickListener {
 
     private RecyclerView rvCity;
     private SwipeRefreshLayout swipeRefreshLayout;
@@ -46,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.refresh);
 
         mAdapter = new CityListAdapter(daftarKota);
+        mAdapter.setOnItemClickListener(this);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(mContext);
         rvCity.setLayoutManager(mLayoutManager);
@@ -96,10 +101,6 @@ public class MainActivity extends AppCompatActivity {
                     if (swipeRefreshLayout != null)
                         swipeRefreshLayout.setRefreshing(false);
 
-
-                    //Intent i = new Intent(mContext, MovieActivity.class);
-                    //mContext.startActivity(i);
-
                 }
             }
 
@@ -125,4 +126,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onItemClick(int pos, View view) {
+        City city = daftarKota.get(pos);
+
+        Intent i = new Intent(MainActivity.this, MovieActivity.class);
+        i.putExtra(MovieActivity.ARG_CITY, city);
+        startActivity(i);
+    }
 }

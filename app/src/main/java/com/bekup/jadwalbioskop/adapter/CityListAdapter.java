@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.bekup.jadwalbioskop.R;
+import com.bekup.jadwalbioskop.listener.RecyclerViewItemClickListener;
 import com.bekup.jadwalbioskop.model.City;
 
 import java.util.List;
@@ -18,6 +19,7 @@ import java.util.List;
 public class CityListAdapter extends RecyclerView.Adapter<CityListAdapter.CityViewHolder> {
 
     private List<City> cityList ;
+    private RecyclerViewItemClickListener recyclerViewItemClickListener ;
 
     public CityListAdapter(List<City> cityList) {
         this.cityList = cityList;
@@ -29,7 +31,21 @@ public class CityListAdapter extends RecyclerView.Adapter<CityListAdapter.CityVi
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.list_item_city, parent, false);
 
-        return new CityViewHolder(itemView);
+        final CityViewHolder cityViewHolder = new CityViewHolder(itemView) ;
+
+        cityViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int adapterPos = cityViewHolder.getAdapterPosition();
+                if (adapterPos != RecyclerView.NO_POSITION) {
+                    if (recyclerViewItemClickListener != null) {
+                        recyclerViewItemClickListener.onItemClick(adapterPos, cityViewHolder.itemView);
+                    }
+                }
+            }
+        });
+
+        return cityViewHolder ;
     }
 
     @Override
@@ -49,6 +65,10 @@ public class CityListAdapter extends RecyclerView.Adapter<CityListAdapter.CityVi
         return cityList.get(positon);
     }
 
+    public void setOnItemClickListener(RecyclerViewItemClickListener recyclerViewItemClickListener) {
+        this.recyclerViewItemClickListener = recyclerViewItemClickListener ;
+    }
+
     public void remove(City item) {
         int position = cityList.indexOf(item);
         if (position > -1) {
@@ -62,8 +82,6 @@ public class CityListAdapter extends RecyclerView.Adapter<CityListAdapter.CityVi
             remove(getItem(0));
         }
     }
-
-
 
     public class CityViewHolder extends RecyclerView.ViewHolder {
 

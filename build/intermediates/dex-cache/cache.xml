@@ -3,138 +3,219 @@
 
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_0b0fe5d6ab2ebf51b65f0ff2bd40e2bb76cf43bd\classes.dex" />
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_84ef8e5d9560403f61b46c1733a707fd5339aa67\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_3255b37ab3cd0c8f25964b5d9754529078b809c1\classes.dex" />
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_547e22b7ece7b0be967894171995958ba4cd24b6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_33b82373ece3375dca739916fc775f51210cd7d8\classes.dex" />
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_de30cd5a8103e5f9414f2f05320794aeffbd56c1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_64fcc2022bcbf66e46f86e66b180ab89b84ff571\classes.dex" />
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_515a10d45fb61fb9bbd62bcec3ebd2c11285793a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_c511b1a0e0bfed466f1507803e215a2a15b98f07\classes.dex" />
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_8809d9387df2321411d466303c686fc4227f2229\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_14c5c97099d05cb9d60a26a0dfff1d3592ab274e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_1ac2ca9387d9ba6191b7e5eeca24253ec96a8f3a\classes.dex" />
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_aaca155a436bf3b8d05d1c2be0ee596722dd023e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_343bc845ec4952b55b4fbbf12ba6119e99ae2aa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_ff8b346139d99461b6239d083c15fd485e2fe743\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_f62d3f13f851a50ca1652b442ba7b60d60674f64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_c013e64c597720e1ffca23689d1c0610d141c37b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0bbf7f3e864109b7ef74d1cd81ba092bec38d1a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ac97e95f2a48944ba8e5f92a838c786f4233096c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_188b44cb98d907cd1f8e472564d8b2c1c04e80dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05592b3b62977ad222bb484896dd605755f679a8">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ec1e69fa26731f0d8dd800c393f8557a3029d752\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_03dd3402132339986f330902900d1cdf1f2e24a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_95bb4e361e5c76d80b64c3d9631ff79df08c5256\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_d3888a3dddc87498741f96338761f63c242dee6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6629118edea4c1199cfa0d6b9e7104da68c57b3a">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ca9f4ec6215fdc776cdb7ba9038ff5878e25e7b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_9a8f181dda6dbbc1cc7bb57ec18f9e1cd807e280\classes.dex" />
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_8eeea52c278d801c85ca953ad50becc8424cbdb7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="b315f1fa7c1dc05d57174b79b8ce742fe74cbf2a">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_3e5c2e1f22c322b7fa2f13217d9eca0c7441f265\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_de18bfe903e4d635305c4c70a994139c0459675d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\TRIPOD STUDIO\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_cb3618c2b01b3e9d084e3032f0163fcd92c328a6\classes.dex" />
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_7b1a3bacb73edf012373c24f5efe27826d07b3ef\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_914a72e6ffa2ca962b4869d9d6ae00cf46089bcc\classes.dex" />
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_11c98432b68b38d0aa99dc226cd43330f555fd43\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_dd1f3077a79d7bfe4331f8144267d213a916dc56\classes.dex" />
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_1ca8133567a0365abf2f0bb44e528fba9ed2484d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="efff0d9a64b34be9b3ba84ff3fadd6232bdee586">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c43f1b3d2937a7a78deccf2f154dd60e2d575e84\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_63e9ceb387b300abdf310613da3399ddd14dd0c9\classes.dex" />
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\ANDROID-DEV\workspace\Bekup 2.0\Jadwal-Bioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_5f4e2520b76495038c8746031e7334904b7e04e4\classes.dex" />
     </item>
 
 </items>
