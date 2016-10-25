@@ -2,16 +2,22 @@ package com.bekup.jadwalbioskop.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.bekup.jadwalbioskop.R;
+import com.bekup.jadwalbioskop.adapter.CityListAdapter;
 import com.bekup.jadwalbioskop.model.City;
 import com.bekup.jadwalbioskop.model.CityResponse;
 import com.bekup.jadwalbioskop.networks.MovieService;
+import com.bekup.jadwalbioskop.util.DividerItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,15 +28,38 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    private RecyclerView rvCity;
+    private SwipeRefreshLayout swipeRefreshLayout;
     private List<City> daftarKota = new ArrayList<>() ;
     private Context mContext = this ;
     private final static String API_KEY = "7e96bc9650c0ba99f9c458a2d9aa11d8";
+
+    private CityListAdapter mAdapter ;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        rvCity = (RecyclerView) findViewById(R.id.rv_city);
+        swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.refresh);
+
+        mAdapter = new CityListAdapter(daftarKota);
+
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(mContext);
+        rvCity.setLayoutManager(mLayoutManager);
+        rvCity.setItemAnimator(new DefaultItemAnimator());
+        rvCity.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+        rvCity.setAdapter(mAdapter);
+
+        swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                refreshData();
+            }
+        });
 
         loadData();
 
@@ -40,6 +69,14 @@ public class MainActivity extends AppCompatActivity {
         final ProgressDialog progressDialog = new ProgressDialog(mContext);
         progressDialog.setMessage("Load data...");
         progressDialog.show();
+
+        if (swipeRefreshLayout != null)
+            swipeRefreshLayout.post(new Runnable() {
+                @Override
+                public void run() {
+                    swipeRefreshLayout.setRefreshing(true);
+                }
+            });
 
         MovieService movieService = MovieService
                 .retrofit.create(MovieService.class);
@@ -54,14 +91,14 @@ public class MainActivity extends AppCompatActivity {
                 if (cityResponse != null) {
                     Log.d("status", cityResponse.getStatus());
                     daftarKota.addAll(cityResponse.getData());
+                    mAdapter.notifyDataSetChanged();
+
+                    if (swipeRefreshLayout != null)
+                        swipeRefreshLayout.setRefreshing(false);
 
 
-                    for (int i = 0; i < cityResponse.getData().size(); i++) {
-                        Log.d("kota", cityResponse.getData().get(i).getKota());
-                    }
-
-                    Intent i = new Intent(mContext, MovieActivity.class);
-                    mContext.startActivity(i);
+                    //Intent i = new Intent(mContext, MovieActivity.class);
+                    //mContext.startActivity(i);
 
                 }
             }
@@ -70,6 +107,20 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(Call<CityResponse> call, Throwable t) {
                 progressDialog.dismiss();
                 Toast.makeText(mContext, t.getMessage(), Toast.LENGTH_LONG).show();
+
+                if (swipeRefreshLayout != null)
+                    swipeRefreshLayout.setRefreshing(false);
+
+            }
+        });
+    }
+
+    private void refreshData(){
+        new Handler().post(new Runnable() {
+            @Override
+            public void run() {
+                mAdapter.clear();
+                loadData();
             }
         });
     }

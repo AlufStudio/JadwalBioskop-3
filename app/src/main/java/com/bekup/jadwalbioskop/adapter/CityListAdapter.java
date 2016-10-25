@@ -45,6 +45,26 @@ public class CityListAdapter extends RecyclerView.Adapter<CityListAdapter.CityVi
         return cityList.size();
     }
 
+    public City getItem(int positon){
+        return cityList.get(positon);
+    }
+
+    public void remove(City item) {
+        int position = cityList.indexOf(item);
+        if (position > -1) {
+            cityList.remove(position);
+            notifyItemRemoved(position);
+        }
+    }
+
+    public void clear() {
+        while (getItemCount() > 0) {
+            remove(getItem(0));
+        }
+    }
+
+
+
     public class CityViewHolder extends RecyclerView.ViewHolder {
 
         TextView id, city ;

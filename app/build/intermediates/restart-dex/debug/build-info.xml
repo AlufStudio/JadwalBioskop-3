@@ -5,33 +5,46 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="48721470125729"
+    timestamp="73259692996300"
     token="6668795957016664185"
-    verifier="COMPATIBLE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="759" />
+        duration="1182" />
     <task
         name="instant-run-dex"
-        duration="1275" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="150" />
     <task
         name="verifier"
-        duration="9" />
+        duration="45" />
 
     <artifact
-        location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+    <artifact
+        location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="48495336087465"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="72478345692950"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="73259692996300"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
     </build>
     <build
         timestamp="203241598748807"
