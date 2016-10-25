@@ -4,6 +4,10 @@
         "source": "E:\\Project\\ANDROID\\workspace\\BekupAndroid2.0\\JadwalBioskop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\Jadwal-Bioskop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\Jadwal-Bioskop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "E:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
