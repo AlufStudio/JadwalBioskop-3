@@ -28,6 +28,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile 'com.android.support:recyclerview-v7:25.0.0'
+    compile 'com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1'
 
     //Retrofit 2 http://square.github.io/retrofit/
     compile 'com.squareup.retrofit2:retrofit:2.1.0'

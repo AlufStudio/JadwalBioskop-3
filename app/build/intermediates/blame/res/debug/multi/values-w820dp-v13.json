@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\Jadwal-Bioskop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\JadwalBioskop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,55 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\Jadwal-Bioskop\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 57,
-                        "endOffset": 348
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "E:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "E:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 295,
-                        "endColumn": 57,
-                        "endOffset": 348
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "E:\\Project\\ANDROID\\workspace\\BekupAndroid2.0\\JadwalBioskop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "E:\\Project\\ANDROID\\workspace\\BekupAndroid2.0\\JadwalBioskop\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "D:\\ANDROID-DEV\\workspace\\Bekup 2.0\\JadwalBioskop\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

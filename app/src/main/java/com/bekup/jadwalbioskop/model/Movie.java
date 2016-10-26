@@ -1,12 +1,14 @@
 package com.bekup.jadwalbioskop.model;
 
+import com.bignerdranch.expandablerecyclerview.model.Parent;
+
 import java.util.List;
 
 /**
  * Created by TRIPOD STUDIO on 10/24/2016.
  */
 
-public class Movie {
+public class Movie implements Parent<Schedule> {
     private String movie ;
     private String poster ;
     private String genre ;
@@ -51,5 +53,15 @@ public class Movie {
 
     public void setJadwal(List<Schedule> jadwal) {
         this.jadwal = jadwal;
+    }
+
+    @Override
+    public List<Schedule> getChildList() {
+        return jadwal ;
+    }
+
+    @Override
+    public boolean isInitiallyExpanded() {
+        return false;
     }
 }
