@@ -1,6 +1,6 @@
 package com.bekup.jadwalbioskop.model;
 
-import com.bignerdranch.expandablerecyclerview.model.Parent;
+import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
 
 import java.util.List;
 
@@ -8,12 +8,21 @@ import java.util.List;
  * Created by TRIPOD STUDIO on 10/24/2016.
  */
 
-public class Movie implements Parent<Schedule> {
+public class Movie extends ExpandableGroup<Schedule> {
     private String movie ;
     private String poster ;
     private String genre ;
     private String duration ;
     private List<Schedule> jadwal ;
+
+
+    public Movie(String title, List<Schedule> items, String movie, String poster, String genre, String duration) {
+        super(title, items);
+        this.movie = movie;
+        this.poster = poster;
+        this.genre = genre;
+        this.duration = duration;
+    }
 
     public String getMovie() {
         return movie;
@@ -53,15 +62,5 @@ public class Movie implements Parent<Schedule> {
 
     public void setJadwal(List<Schedule> jadwal) {
         this.jadwal = jadwal;
-    }
-
-    @Override
-    public List<Schedule> getChildList() {
-        return jadwal ;
-    }
-
-    @Override
-    public boolean isInitiallyExpanded() {
-        return false;
     }
 }

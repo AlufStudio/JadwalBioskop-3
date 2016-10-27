@@ -1,0 +1,7 @@
+#Fri Oct 28 04:16:54 SGT 2016
+base.0=E\:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c43f1b3d2937a7a78deccf2f154dd60e2d575e84\\classes.dex
+base.1=E\:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_c43f1b3d2937a7a78deccf2f154dd60e2d575e84
+file.0=E\:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c\\classes.dex

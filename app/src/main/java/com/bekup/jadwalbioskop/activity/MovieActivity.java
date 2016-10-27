@@ -1,15 +1,23 @@
 package com.bekup.jadwalbioskop.activity;
 
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import com.bekup.jadwalbioskop.R;
+import com.bekup.jadwalbioskop.adapter.MovieAdapter;
 import com.bekup.jadwalbioskop.model.City;
+import com.bekup.jadwalbioskop.model.Movie;
 import com.bekup.jadwalbioskop.model.MovieResponse;
+import com.bekup.jadwalbioskop.model.Schedule;
 import com.bekup.jadwalbioskop.networks.MovieService;
+import com.bekup.jadwalbioskop.util.DividerItemDecoration;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -17,12 +25,15 @@ import retrofit2.Response;
 
 public class MovieActivity extends AppCompatActivity {
 
-    private Context mContext = this ;
     private final static String API_KEY = "7e96bc9650c0ba99f9c458a2d9aa11d8";
 
     public final static String ARG_CITY = "Intent.CITY" ;
 
     private String id ;
+
+    private List<Movie> movieList = new ArrayList<>() ;
+    private List<Schedule> scheduleList = new ArrayList<>();
+    private MovieAdapter adapter ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +44,19 @@ public class MovieActivity extends AppCompatActivity {
         id = city.getId() ;
 
         loadData();
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rv_movie);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        adapter = new MovieAdapter(this, movieList);
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+        recyclerView.setAdapter(adapter);
     }
 
     private void loadData() {
-        final ProgressDialog progressDialog = new ProgressDialog(mContext);
+        final ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Load data...");
         progressDialog.show();
 
@@ -49,29 +69,20 @@ public class MovieActivity extends AppCompatActivity {
             public void onResponse(Call<MovieResponse> call, Response<MovieResponse> response) {
                 progressDialog.dismiss();
 
-                MovieResponse jadwalResponse = response.body();
+                MovieResponse movieResponse = response.body();
 
-                Log.d("status", jadwalResponse.getStatus());
-                Log.d("kota", jadwalResponse.getKota());
-                Log.d("date", jadwalResponse.getDate());
+                if (movieResponse != null) {
 
-                if (jadwalResponse != null) {
+                    for (int i = 0; i < movieResponse.getData().size();i++) {
 
-                    for (int i = 0; i < jadwalResponse.getData().size();i++) {
-                        Log.d("movie", jadwalResponse.getData().get(i).getMovie());
+                        scheduleList.addAll(movieResponse.getData().get(i).getJadwal());
 
-                        for (int j = 0; j < jadwalResponse.getData().get(i).getJadwal().size(); j++) {
-                            Log.d("bioskop", jadwalResponse.getData().get(i).getJadwal().get(j).getBioskop());
-
-                            for (int k = 0; k < jadwalResponse.getData().get(i).getJadwal().get(j).getJam().size(); k++) {
-
-                                Log.d("jam", jadwalResponse.getData().get(i).getJadwal().get(j).getJam().get(k));
-                            }
-
-                            Log.d("harga", jadwalResponse.getData().get(i).getJadwal().get(j).getHarga());
-
-                        }
-
+                        movieList.add(new Movie("movie", scheduleList,
+                                movieResponse.getData().get(i).getMovie(),
+                                movieResponse.getData().get(i).getPoster(),
+                                movieResponse.getData().get(i).getGenre(),
+                                movieResponse.getData().get(i).getDuration()));
+                        adapter.notifyDataSetChanged();
                     }
 
                 }

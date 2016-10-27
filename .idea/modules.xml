@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Jadwal-Bioskop.iml" filepath="$PROJECT_DIR$/Jadwal-Bioskop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JadwalBioskop.iml" filepath="$PROJECT_DIR$/JadwalBioskop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
