@@ -21,6 +21,7 @@ public class MovieViewHolder extends GroupViewHolder {
     private ImageView poster ;
     private TextView title, genre, duration ;
     private Context context ;
+    //private FirebaseAnalytics mFire
 
     public MovieViewHolder(View itemView, Context context) {
         super(itemView);

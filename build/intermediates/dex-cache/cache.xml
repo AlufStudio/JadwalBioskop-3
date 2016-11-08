@@ -93,6 +93,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_86dfdfb89170eff9316795901c3c79c7987915af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.thoughtbot\expandablerecyclerview\1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -106,8 +115,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="873647de42950d5e64e8552789812e1c1d2d3b8a">
+        sha1="e66a7982d57bccc210117510e697f77f61fd82e7">
         <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c43f1b3d2937a7a78deccf2f154dd60e2d575e84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_318b2ed257897f91733752e3d1fb5a66f69ed3a8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,12 +174,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_014d7e21a7f7afb0620ebc62561ea17bd3859957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
         <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_53a49fd037641e5f8c3643883bf7110c5cf87ba4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_99dc4eb0203fee98f06cebb5f43c847ff8054e4e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -180,6 +216,15 @@
         revision="25.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
         <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_9a8f181dda6dbbc1cc7bb57ec18f9e1cd807e280\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.8.0_73e663de4d20d387696844a66031d091f13db766\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -210,11 +255,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.8.0_ee2fdec9066ff0217f63dba7e91d559b63d3d63d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44dd63586ed892baf0f8a1249be15b9667de5054">
+        sha1="7b62636cb2ae456a9285a882276fc42c0d645b69">
         <dex dex="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c\classes.dex" />
     </item>
     <item

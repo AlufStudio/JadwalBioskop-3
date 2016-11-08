@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Parcelable;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -22,6 +21,7 @@ import com.bekup.jadwalbioskop.model.City;
 import com.bekup.jadwalbioskop.model.CityResponse;
 import com.bekup.jadwalbioskop.networks.MovieService;
 import com.bekup.jadwalbioskop.util.DividerItemDecoration;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,11 +40,15 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewItemC
 
     private CityListAdapter mAdapter ;
 
+    private FirebaseAnalytics mFirebaseAnalytics ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         rvCity = (RecyclerView) findViewById(R.id.rv_city);
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.refresh);
@@ -133,5 +137,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewItemC
         Intent i = new Intent(MainActivity.this, MovieActivity.class);
         i.putExtra(MovieActivity.ARG_CITY, city);
         startActivity(i);
+
+        mFirebaseAnalytics.setUserProperty("city", city.getKota());
     }
 }

@@ -5,37 +5,37 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="12300200479667"
+    timestamp="190315659643948"
     token="-263322984664819073"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="2466" />
+        duration="11575" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="229" />
+        duration="1100" />
     <task
         name="verifier"
-        duration="8" />
+        duration="45" />
 
     <artifact
         location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
         type="DEX" />
 
     <build
-        timestamp="10472113999596"
+        timestamp="188308227356551"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="12300200479667"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="190315659643948"
+        verifier="CLASS_ADDED" >
         <artifact
             location="E:\Project\ANDROID\workspace\Bekup\JadwalBioskop\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />

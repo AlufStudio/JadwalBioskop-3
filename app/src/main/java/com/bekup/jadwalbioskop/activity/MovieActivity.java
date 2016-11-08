@@ -15,6 +15,8 @@ import com.bekup.jadwalbioskop.model.MovieResponse;
 import com.bekup.jadwalbioskop.model.Schedule;
 import com.bekup.jadwalbioskop.networks.MovieService;
 import com.bekup.jadwalbioskop.util.DividerItemDecoration;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.thoughtbot.expandablerecyclerview.listeners.OnGroupClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,10 +37,14 @@ public class MovieActivity extends AppCompatActivity {
     private List<Schedule> scheduleList = new ArrayList<>();
     private MovieAdapter adapter ;
 
+    private FirebaseAnalytics mFirebaseAnalytics ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         City city = getIntent().getParcelableExtra(ARG_CITY);
         id = city.getId() ;
@@ -53,6 +59,22 @@ public class MovieActivity extends AppCompatActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setAdapter(adapter);
+
+        adapter.setOnGroupClickListener(new OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(int flatPos) {
+
+                String movie = movieList.get(flatPos).getMovie() ;
+
+                Bundle bundle = new Bundle();
+                bundle.putString("movie_title", movie);
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+
+                return false;
+            }
+
+
+        });
     }
 
     private void loadData() {

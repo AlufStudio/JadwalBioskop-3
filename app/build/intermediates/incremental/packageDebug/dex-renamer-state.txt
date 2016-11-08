@@ -1,4 +1,4 @@
-#Fri Oct 28 04:16:54 SGT 2016
+#Wed Nov 09 05:30:38 SGT 2016
 base.0=E\:\\Project\\ANDROID\\workspace\\Bekup\\JadwalBioskop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4b1c16fa72d9892447dcccb1c9a4c8d1344b564c
 renamed.1=classes.dex
 renamed.0=classes2.dex
